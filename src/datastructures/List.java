@@ -7,7 +7,7 @@ package datastructures;
  *
  * @param <T> type of elements stored in list
  */
-public class List<T extends Comparable<T>> {
+public class List<T> {
 	
 	private Node<T> head;
 	private int size;
