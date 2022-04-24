@@ -1,4 +1,4 @@
-package datastructures;
+package main.datastructures;
 
 /**
  * simple singularly linked LinkedList
