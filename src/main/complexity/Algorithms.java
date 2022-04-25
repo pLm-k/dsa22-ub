@@ -35,4 +35,14 @@ public class Algorithms {
 		}
 		return importantValue;
 	}
+	
+	//O(?)
+	public int alg4(int n) {
+		int result = 1;
+		int a = (int) Math.pow(23579, result);
+		for(int i = 0; i < a; i*=2) {
+			result++;
+		}
+		return result;
+	}
 }

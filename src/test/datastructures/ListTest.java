@@ -38,7 +38,7 @@ public class ListTest{
 	}
 	
 	@Test
-	public void remove() {
+	public void removeTest() {
 		Assertions.assertEquals(10, testList.removeElementAt(10));
 		Assertions.assertEquals(19, testList.getSize());
 		int value = 0;
