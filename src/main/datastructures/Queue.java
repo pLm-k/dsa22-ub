@@ -19,7 +19,7 @@ public class Queue<T> {
 	 * @param t element to be added to back of queue
 	 */
 	public void queue(T t) {
-		
+		queue.append(t);
 	}
 
 	/**
@@ -28,13 +28,13 @@ public class Queue<T> {
 	 * @return element at front of queue
 	 */
 	public T dequeue() {
-		return null;
+		return queue.removeElementAt(0);
 	}
 
 	/**
 	 * @return element at front of queue
 	 */
 	public T front() {
-		return null;
+		return queue.getElementAt(0);
 	}
 }

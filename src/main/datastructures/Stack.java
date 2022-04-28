@@ -5,7 +5,7 @@ package main.datastructures;
  * 
  * @author plmk
  *
- * @param <T> type of elements stored in ths stack
+ * @param <T> type of elements stored in the stack
  */
 public class Stack<T>{
 
@@ -19,7 +19,7 @@ public class Stack<T>{
 	 * @param t element to be added to top of stack
 	 */
 	public void push(T t) {
-		
+		stack.prepend(t);
 	}
 
 	/**
@@ -28,13 +28,13 @@ public class Stack<T>{
 	 * @return element on top of stack
 	 */
 	public T pop() {
-		return null;
+		return stack.removeElementAt(0);
 	}
 
 	/**
 	 * @return element on top of stack
 	 */
 	public T peek() {
-		return null;
+		return stack.getElementAt(0);
 	}
 }
