@@ -8,7 +8,7 @@ import main.Sorter.Sorter;
 
 import java.util.LinkedList;
 
-public class SorterTest {
+public class SorterAlgorithmsTest {
 	/**
 	 * some simple test for List
 	 * 
