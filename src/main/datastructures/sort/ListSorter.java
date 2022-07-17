@@ -1,8 +1,8 @@
-package main.Sorter;
+package main.datastructures.sort;
 
 import java.util.List;
 
-public class Sorter {
+public class ListSorter {
 
 	/**
 	 * selection sort

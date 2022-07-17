@@ -1,10 +1,10 @@
-package test.sorter;
+package test.datastrucutres.sort;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 
-import main.Sorter.Sorter;
+import main.datastructures.sort.ListSorter;
 
 import java.util.LinkedList;
 
@@ -16,7 +16,7 @@ import java.util.LinkedList;
  * @author plmil
  *
  */
-public class SorterTest {
+public class ListSorterTest {
 	
 	LinkedList<Integer> testList;
 	LinkedList<Integer> sortedTestList;
@@ -43,7 +43,7 @@ public class SorterTest {
 
 	@Test
 	public void bubbleSortTest() {
-		Sorter.bubbleSort(testList);
+		ListSorter.bubbleSort(testList);
 		for(int i = 0; i <testList.size(); i++) {
 			Assertions.assertEquals(sortedTestList.get(i), testList.get(i));
 		}
@@ -51,7 +51,7 @@ public class SorterTest {
 
 	@Test
 	public void insertionSortTest() {
-		Sorter.insertionSort(testList);
+		ListSorter.insertionSort(testList);
 		for(int i = 0; i <testList.size(); i++) {
 			Assertions.assertEquals(sortedTestList.get(i), testList.get(i));
 		}
@@ -59,7 +59,7 @@ public class SorterTest {
 
 	@Test
 	public void selectionSortTest() {
-		Sorter.selectionSort(testList);
+		ListSorter.selectionSort(testList);
 		for(int i = 0; i <testList.size(); i++) {
 			Assertions.assertEquals(sortedTestList.get(i), testList.get(i));
 		}
@@ -67,7 +67,7 @@ public class SorterTest {
 
 	@Test
 	public void quickSortTest() {
-		Sorter.quickSort(testList);
+		ListSorter.quickSort(testList);
 		for(int i = 0; i <testList.size(); i++) {
 			Assertions.assertEquals(sortedTestList.get(i), testList.get(i));
 		}

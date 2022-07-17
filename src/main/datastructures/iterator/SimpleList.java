@@ -1,4 +1,4 @@
-package main.datastructures.iteratorDSA;
+package main.datastructures.iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
